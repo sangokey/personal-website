@@ -23,7 +23,6 @@ function Home() {
       <p>
         <h5>email: sangoksuh@hotmail.com</h5>
         <h5>Los Angeles, California</h5>
-        <h5>phone number?</h5>
         <h5>Links to: LinkedIn, Github</h5>
       </p>
     </div>
