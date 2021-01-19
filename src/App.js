@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Blog from "./Pages/Blog";
-import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -22,9 +21,6 @@ function App() {
       </Route>
       <Route path="/blog">
         <Blog />
-      </Route>
-      <Route path="/contact">
-        <Contact />
       </Route>
     </Router>
   );
