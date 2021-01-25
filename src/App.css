@@ -37,7 +37,7 @@ body {
 
 .h1Home {
   padding-top: 10px;
-  font-size: 140px !important;
+  font-size: 8vw !important;
   font-weight: 100 !important;
   font-family: "Knewave", cursive;
   position: relative;
@@ -45,7 +45,7 @@ body {
 }
 
 .h2Home {
-  font-size: 30px !important;
+  font-size: 2vw !important;
   position: relative;
   bottom: 100px;
 }
