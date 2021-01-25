@@ -41,19 +41,13 @@ body {
   font-weight: 100 !important;
   font-family: "Knewave", cursive;
   position: relative;
-  bottom: 100px;
+  bottom: 10%;
 }
 
 .h2Home {
   font-size: 2vw !important;
   position: relative;
-  bottom: 100px;
-}
-
-.iconHome {
-  position: absolute;
-  right: 15px;
-  bottom: 10px;
+  bottom: 10%;
 }
 
 /* Home Page About */
