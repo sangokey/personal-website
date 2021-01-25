@@ -9,11 +9,11 @@ function Home() {
       <h1 className="h1Home">SANG OK SUH</h1>
       <h2 className="h2Home">ASPIRING SOFTWARE ENGINEER</h2>
       <div className="iconHome">
-        <a href="https://github.com/sangokey">
+        <a href="https://www.linkedin.com/in/sangoksuh/">
           <SiLinkedin></SiLinkedin>
         </a>
         <span>&nbsp;</span>
-        <a href="https://www.linkedin.com/in/sangoksuh/">
+        <a href="https://github.com/sangokey">
           <SiGithub></SiGithub>
         </a>
       </div>

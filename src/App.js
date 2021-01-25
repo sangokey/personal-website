@@ -1,6 +1,4 @@
-import React from "react";
-
-//Router
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //Pages
@@ -8,12 +6,20 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
-import NavigationBar from "./Components/NavigationBar";
+import Navbar from "./Components/Navbar";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <Router>
-      <NavigationBar />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
       <Switch>
         <Route exact path="/">
           <Home />
