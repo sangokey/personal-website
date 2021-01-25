@@ -6,7 +6,10 @@ import {
   SidebarWrapper,
   SidebarLink,
   SidebarMenu,
+  ResumeLink,
 } from "./SidebarElements";
+
+import Pdf from "../../Assets/sangok-resume.pdf";
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -19,7 +22,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="/">Home</SidebarLink>
           <SidebarLink to="projects">Projects</SidebarLink>
           <SidebarLink to="blog">Blog</SidebarLink>
-          <SidebarLink to="contact">Contact</SidebarLink>
+          <ResumeLink href={Pdf} target="_blank">
+            Resume
+          </ResumeLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
