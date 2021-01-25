@@ -5,9 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Blog from "./Pages/Blog";
-import Contact from "./Pages/Contact";
-import Navbar from "./Components/Navbar";
-import Sidebar from "./Components/Sidebar";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,20 +15,15 @@ function App() {
 
   return (
     <Router>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home isOpen={isOpen} toggle={toggle} />
         </Route>
         <Route path="/projects">
-          <Projects />
+          <Projects isOpen={isOpen} toggle={toggle} />
         </Route>
         <Route path="/blog">
-          <Blog />
-        </Route>
-        <Route path="/contact">
-          <Contact />
+          <Blog isOpen={isOpen} toggle={toggle} />
         </Route>
       </Switch>
     </Router>

@@ -7,7 +7,10 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  ResumeLink,
 } from "./NavbarElements";
+
+import Pdf from "../../Assets/sangok-resume.pdf";
 
 const Navbar = ({ toggle }) => {
   return (
@@ -22,7 +25,9 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="/">Home</NavLinks>
               <NavLinks to="/projects">Projects</NavLinks>
               <NavLinks to="/blog">Blog</NavLinks>
-              <NavLinks to="/contact">Contact</NavLinks>
+              <ResumeLink href={Pdf} target="_blank">
+                Resume
+              </ResumeLink>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
