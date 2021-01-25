@@ -40,6 +40,7 @@ export const SidebarMenu = styled.ul`
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 80px);
   text-align: center;
+  padding-left: 0px;
 
   @media screen and(max-width: 480px) {
     grid-template-rows: repeat(4, 60px);
