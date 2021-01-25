@@ -24,7 +24,7 @@ body,
 
 .h1Home {
   padding-top: 10px;
-  font-size: 7vw !important;
+  font-size: 110px !important;
   font-weight: 100 !important;
   font-family: "Knewave", cursive;
   position: relative;
@@ -32,7 +32,7 @@ body,
 }
 
 .h2Home {
-  font-size: 1.5vw !important;
+  font-size: 30px !important;
   position: relative;
   bottom: 100px;
 }
@@ -54,18 +54,31 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .homeImage {
+    padding-top: 10%;
+    max-width: 100%;
+    height: auto;
+  }
+
   .h1Home {
     padding-top: 10px;
-    font-size: 10vw !important;
+    font-size: 14.2vw !important;
     font-weight: 100 !important;
     font-family: "Knewave", cursive;
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
   }
 
   .h2Home {
-    font-size: 3vw !important;
+    font-size: 3.9vw !important;
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
+  }
+
+  .iconHome {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
   }
 }
