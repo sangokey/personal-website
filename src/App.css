@@ -145,7 +145,7 @@ h3 {
 }
 
 /* Mobile */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px), screen and (max-height: 800px) {
   .homeHeader {
     height: fit-content;
     text-align: center;
