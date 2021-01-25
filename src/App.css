@@ -8,7 +8,8 @@ html,
 body,
 #root,
 .App {
-  height: 100%;
+  height: min-content;
+  overflow: hidden;
 }
 
 .homeHeader {
@@ -38,10 +39,8 @@ body,
 
 .iconHome {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding-bottom: 10px;
+  right: 15px;
+  bottom: 10px;
 }
 
 a {
@@ -49,10 +48,24 @@ a {
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-family: "Trispace", serif;
   font-size: 20px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .h1Home {
+    padding-top: 10px;
+    font-size: 10vw !important;
+    font-weight: 100 !important;
+    font-family: "Knewave", cursive;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .h2Home {
+    font-size: 3vw !important;
+    position: relative;
+    bottom: 50px;
+  }
 }
