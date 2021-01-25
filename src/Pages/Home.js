@@ -8,7 +8,8 @@ function Home() {
       <img src={portrait} alt="HomeImage" className="homeImage" />
       <h1 className="h1Home">SANG OK SUH</h1>
       <h2 className="h2Home">ASPIRING SOFTWARE ENGINEER</h2>
-      <div className="iconHome">
+      <div className="homeAbout">About Me</div>
+      <footer>
         <a href="https://www.linkedin.com/in/sangoksuh/">
           <SiLinkedin></SiLinkedin>
         </a>
@@ -16,7 +17,7 @@ function Home() {
         <a href="https://github.com/sangokey">
           <SiGithub></SiGithub>
         </a>
-      </div>
+      </footer>
     </div>
   );
 }
