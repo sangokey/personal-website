@@ -60,3 +60,17 @@ export const SidebarLink = styled(Link)`
     color: red;
   }
 `;
+
+export const ResumeLink = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    color: red;
+  }
+`;
