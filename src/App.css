@@ -145,7 +145,7 @@ h3 {
 }
 
 /* Mobile */
-@media screen and (max-width: 900px), screen and (max-height: 800px) {
+@media screen and (max-width: 900px) {
   .homeHeader {
     height: fit-content;
     text-align: center;
@@ -173,7 +173,34 @@ h3 {
   }
 
   .aboutme p {
-    font-size: 2.5vw;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .homeHeader {
+    height: fit-content;
+    text-align: center;
+  }
+
+  .homeImage {
+    padding-top: 10%;
+    max-width: 100%;
+    height: auto;
+  }
+  .h1Home {
+    padding-top: 10px;
+    font-size: 10vw !important;
+    font-weight: 100 !important;
+    font-family: "Knewave", cursive;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .h2Home {
+    font-size: 2vw !important;
+    position: relative;
+    bottom: 50px;
   }
 }
 
