@@ -47,6 +47,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin-right: -22px;
+  padding: 0;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -59,6 +60,18 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
+  color: black;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &:hover {
+    color: red;
+  }
+`;
+
+export const ResumeLink = styled.a`
   color: black;
   align-items: center;
   text-decoration: none;
